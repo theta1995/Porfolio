@@ -26,7 +26,7 @@ section .air {
 
 section .air.air1 {
     animation: wave 30s linear infinite;
-    /* z-index: 4; */
+    z-index: 4;
     opacity: 1;
     animation-delay: 0s;
     bottom: 0;
@@ -34,7 +34,7 @@ section .air.air1 {
 
 section .air.air2 {
     animation: wave2 15s linear infinite;
-    /* z-index: 3; */
+    z-index: 3;
     opacity: 0.5;
     animation-delay: -5s;
     bottom: 10px;
@@ -42,7 +42,7 @@ section .air.air2 {
 
 section .air.air3 {
     animation: wave 30s linear infinite;
-    /* z-index: 2; */
+    z-index: 2;
     opacity: 0.2;
     animation-delay: -2s;
     bottom: 15px;
@@ -50,7 +50,7 @@ section .air.air3 {
 
 section .air.air4 {
     animation: wave2 5s linear infinite;
-    /* z-index: 1; */
+    z-index: 1;
     opacity: 0.7;
     animation-delay: -5s;
     bottom: 20px;
@@ -85,7 +85,7 @@ body {
 
 #contentBody {
     position: absolute;
-    z-index: 1;
+    z-index: 9;
     color: white;
 }
 
